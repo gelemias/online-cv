@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Orbit - Responsive Resume/CV Template for Developers
  * Version: 1.0
  * Author: Xiaoying Riley
@@ -16,10 +16,10 @@ body {
   padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-        
+
 }
 @media (max-width: 767px) {
-    body{ 
+    body{
         padding: 0;
     }
 }
@@ -58,10 +58,12 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #4B6A78;
+  /*background: #984B43;*/
+  background-image: linear-gradient(#30cfd0, #330867);
+  background: linear-gradient(#30cfd0, #330867);
   position: absolute;
   right: 0;
-  width: 240px;
+  width: 260px;
   height: 100%;
   min-height: 800px;
   color: #fff;
@@ -76,8 +78,8 @@ p {
   color: #fff;
 }
 .sidebar-wrapper .name {
-  font-size: 32px;
-  font-weight: 900;
+  font-size: 36px;
+  font-weight: 300;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -167,7 +169,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #2e4049;
+  color: #330867;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -186,7 +188,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #2e4049;
+  background: #330867;
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -248,7 +250,7 @@ p {
 }
 .skillset .level-bar-inner {
   height: 12px;
-  background: #6c92a3;
+  background: #330867;
 }
 .footer {
   padding: 30px;
@@ -300,7 +302,7 @@ p {
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
 
-/* 
+/*
 used for profile image
 */
 .profile-img {
@@ -310,4 +312,3 @@ used for profile image
   border-radius: 100%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-
